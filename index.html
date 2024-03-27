@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chai Bar</title>
+    <link rel="icon" href="svg/coffee.svg" type="image/icon type">
+    <link rel="stylesheet" href="styleee.css" />
+
+
+
+    <script>
+      window.onscroll = function() { Scroll()};
+      function Scroll() {
+        if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+          document.getElementById("id-navi").className = "navi-slidedown";
+        }
+        if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+          document.getElementById("id-about-scroll").className = "scroll-about";
+        }
+      }
+
+      function menuButtonSnacks(){
+        document.getElementById("id-drinks").className = "menu-button-off";
+        document.getElementById("id-snacks").className = "menu-button-on";
+        document.getElementById("id-menu-snacks").className = "menu-snacks-on";
+        document.getElementById("id-menu-drinks").className = "menu-drinks-off";
+      }
+      function menuButtonDrinks(){
+        document.getElementById("id-drinks").className = "menu-button-on";
+        document.getElementById("id-snacks").className = "menu-button-off";
+        document.getElementById("id-menu-snacks").className = "menu-snacks-off";
+        document.getElementById("id-menu-drinks").className = "menu-drinks-on";
+      }
+
+    </script>
+
+  </head>
+
+  <body>
+
+    <header class="header">
+
+      <section class="main">
+
+        <a class="logo" href="#"><img src="chaiBar head.png"></a>
+
+        <div class="fix" >
+          <a class="a1" href="#id-contact">CONTACT US</a>
+          <a class="a1" href="#id-menu">DISCOVER</a>
+          <a class="a1" href="#id-about">ABOUT US</a>
+          <a class="a1" href="#">HOME</a>
+
+          
+        </div>
+        
+
+      </section>
+
+
+      <div class="fix-background" id="id-navi"></div>
+
+      <div class="banner">
+        <h1 class="banner-title">The Chai Bar</h1>
+        <h3 class="banner-subtitle">"Chai पे चर्चा"</h3>
+      </div>
+
+
+      <div class="banner-bottom"><a href="#id-skills"><img src="svg/down-arrow.svg"></a></div>
+
+    </header>
+
+
+    <div class="content-divider"></div>
+
+    <section class="skills" id="id-skills" style="background-color:#ffffff;">
+      <!-- single skill -->
+      <article class="skill1">
+
+        <img src="svg/coffee-bag.svg" height="45px"><br>
+        <h3 class="skill-title">Best Chai in Canada</h3>
+        <p class="skill-text">
+          We have one solution for everything, and that is CHAI!!
+        </p>
+
+      </article>
+
+      <!--end single skill -->
+      <!-- single skill -->
+      <article class="skill2">
+
+        <img src="svg/spa.svg" height="45px"><br>
+        <h3 class="skill-title">relaxation</h3>
+        <p class="skill-text">
+          Sip chai, breathe deeply, relax, and unwind in a peaceful, serene atmosphere.
+        </p>
+
+      </article>
+      <!--end single skill -->
+      <!-- single skill -->
+      <article class="skill1">
+
+        <img src="svg/ecology-and-environment.svg" height="45px"><br>
+        <h3 class="skill-title">energy</h3>
+        <p class="skill-text">
+          Boost your energy with invigorating chai, infused with aromatic spices for a revitalizing experience.
+        </p>
+
+      </article>
+      <!--end single skill -->
+      <!-- single skill -->
+
+      <article class="skill2">
+
+        <img src="svg/cook.svg" height="45px"><br>
+        <h3 class="skill-title">family recipe</h3>
+        <p class="skill-text">
+          Savor the warmth of cherished family recipes in every soothing sip of chai delight.
+        </p>
+
+      </article>
+      <!--end single skill -->
+    </section>
+
+    
+
+    <!-- about-section -->
+<div class="about">
+  <br>
+    <br>
+
+    <section class="about-section-center-clearfix" style="display: inline; background-color: darkgrey;" id="id-about">
+      <!-- <div class="section-center clearfix"> -->
+      <!-- first column  -->
+      <article class="about-img-1">
+        <div class="about-picture-container" >
+          <video autoplay muted loop id="myVideo">
+            <source src="videos/woman-drinking-coffee.mp4" type="video/mp4">
+            </video>
+        </div>
+      </article>
+      <!-- second column -->
+      <article class="about-info-1">
+        <!-- section title -->
+        <div class="about-scroll" id="id-about-scroll">
+          <!-- <img src="preloader.gif" height="40px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+          <h3 class="section-subtitle">WHY US</h3>
+          <h2 class="section-title">Why The Chai Bar</h2>
+        
+        <!--end section title -->
+        <p class="about-text">
+          We have a mission to capture the hearts of tea lovers everywhere. And we’re not just talking about the flavour, either! We want you to know that you are valuable, and we want you to know that you deserve to be celebrated for your love of tea. That’s why we created The Chai Bar.
+        </p>
+        <p class="about-text">
+          01. AUTHENTICITY:
+          <br>
+          We take authenticity seriously. When you’re ready to taste the difference, be sure to try our blends. You’ll be greeted by a rich aroma and gorgeous colors that make you feel like you’re at a five-star restaurant.
+        </p>
+
+        <p class="about-text">
+          02. A DREAM TO EMPOWER MILLIONS:
+          <br>
+          At The Chai Bar, we believe in creating value through our business. We make sure to maintain a fun and joyous environment for all our employees, and we’re dedicated to helping them grow with each other.
+        </p>
+        <a href="#id-contact" class="main-btn">learn more</a>
+
+        <div class="main-btn-back"></div>
+
+      </div>
+      </article>
+
+
+      <div style="clear: both;"></div>
+    </section>
+  
+    <br>
+    <br>
+  </div>
+<!--Menu-->
+<div style="background-color:#E0E5EC; z-index: -1;">
+<section class="menu-template" id="id-menu">
+  <h1 class="menu-title">Discover</h1><br>
+  <h3 class="menu-subtitle"> O U R &nbsp;&nbsp;M E N U</h3>
+</section><br><br>
+
+
+<section class="menu-header-container">
+  <div class="menu-hr-container"><hr class="menu-hr"></div>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button type="button" id="id-drinks" class="menu-button-on" onclick="menuButtonDrinks()"><img src="svg/hot-drinks (1).png" class="menu-circle-image"></button>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button type="button" id="id-snacks" class="menu-button-off" onclick="menuButtonSnacks()"><img src="svg/snack.png" class="menu-circle-image"></button>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div class="menu-hr-container"><hr class="menu-hr"></div>
+</section>
+
+<!-- drinks menu -->
+
+
+<div class="menu-drinks-on" id="id-menu-drinks">
+
+<section class="menu" style="display: inline;">
+
+
+    <article class="menu-section">
+
+      <!-- first column -->
+
+      <div class="menu-flip-card">
+
+        <div class="menu-flip-card-inner">
+
+          <div class="menu-flip-card-front">
+
+            <img src="TEA_MENU.png.webp" alt="Tea" class="menu-image">
+
+          </div>
+
+          <div class="menu-flip-card-back">
+
+            <div class="menu-text">
+              <span class="menu-text-Items" ><strong>Tea M/L</strong>  </span>
+              <h3 class="menu-text-title">
+              <ul style="list-style-type: none">
+                <li>Special Kadak &nbsp; -- &nbsp; &nbsp; $3.25 / $4.25 </li>
+                <li>Adrak &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                <li> Elaichi &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                <li>Choclate &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                <li>Mango &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                <li>Paan &nbsp; -- &nbsp; &nbsp; $3.50 / $4.25 </li>
+                <li>Masala Cutting &nbsp; -- &nbsp; &nbsp; $3.29 / $4.49 </li> 
+                <li>Rose &nbsp; -- &nbsp; &nbsp; $3.50 / $4.25 </li>
+                <li>Gur Wali Chai &nbsp; -- &nbsp; &nbsp; $3.99 / $4.99 </li>
+                <li>Kesar Chai &nbsp; -- &nbsp; &nbsp; $3.99 / $4.99 </li>
+              </ul>
+            </h3>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- second column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="cold-coffee_Menu.jpg" alt="Cold Coffee" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+
+            <div class="menu-text">
+              <span class="menu-text-Items" ><strong> Cold Coffee </strong>  </span>
+              <h3 class="menu-text-title">
+              <ul style="list-style-type: none">
+                <li>Regular Classic &nbsp; -- &nbsp; &nbsp; $4.25 </li>
+                <li>Choco &nbsp; -- &nbsp; &nbsp; $4.99 </li>
+                <li> Strong &nbsp; -- &nbsp; &nbsp; $5.25 </li>
+                <li>Hazelnut &nbsp; -- &nbsp; &nbsp; $5.25 </li>
+                <li>Strawberry &nbsp; -- &nbsp; &nbsp; $5.25 </li>
+              </ul>
+            </h3>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- third column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="hot-coffee-Menu.jpg.avif" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+
+            <div class="menu-text">
+              <span class="menu-text-Items" ><strong> Hot Coffee M/L </strong>  </span>
+              <h3 class="menu-text-title">
+              <ul style="list-style-type: none">
+                <li>Regular Classic &nbsp; -- &nbsp; &nbsp; $2.99 / $4.25 </li>
+                <li>Choco &nbsp; -- &nbsp; &nbsp; $3.25 / $4.25 </li>
+                <li> Strong &nbsp; -- &nbsp; &nbsp; $3.25 / $4.25 </li>
+                <li> Hazelnut &nbsp; -- &nbsp; &nbsp; $3.25 / $4.25 </li>
+              
+              </ul>
+            </h3>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- fourth column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Shakes_MENU.jpg" alt="Avatar" class="menu-image">
+          </div>
+
+          <div class="menu-flip-card-back">
+
+            <div class="menu-text">
+              <span class="menu-text-Items" ><strong> Shakes </strong>  </span>
+              <h3 class="menu-text-title">
+              <ul style="list-style-type: none">
+                <li>Mango Shake &nbsp; -- &nbsp; &nbsp; $5.99 </li>
+                <li>Almond Banana Shake &nbsp; -- &nbsp; &nbsp; $5.99 </li>
+                <li> Strawberry Shake &nbsp; -- &nbsp; &nbsp; $5.99 </li>
+                <li>Choclate Shake &nbsp; -- &nbsp; &nbsp; $5.99 </li>
+                <li>Vanilla Shake &nbsp; -- &nbsp; &nbsp; $5.99 </li>
+                <li>Oreo Shake &nbsp; -- &nbsp; &nbsp; $5.99 </li>
+                <li> BlueBerry Shake &nbsp; -- &nbsp; &nbsp; $5.99 </li> 
+  
+              </ul>
+            </h3>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div style="clear: both;"></div>
+    <br>
+  </section>
+  <section class="menu" style="display: inline;">
+    <article class="menu-section">
+      <!-- first column -->
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Colddrink_menu.jpg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+
+            <div class="menu-text">
+              <span class="menu-text-Items" ><strong> Cold Drink </strong>  </span>
+              <h3 class="menu-text-title">
+              <ul style="list-style-type: none">
+                <li>Lemon Soda &nbsp; -- &nbsp; &nbsp; $4.99 </li>
+                <li>Mango Lassi &nbsp; -- &nbsp; &nbsp; $5.99 </li>
+                <li> Sweet Lassi &nbsp; -- &nbsp; &nbsp; $3.99 </li>
+                <li> Classic Cold Coffee &nbsp; -- &nbsp; &nbsp; $4.99 </li>
+                <li> Salted Lassi &nbsp; -- &nbsp; &nbsp; $3.99 </li>
+                <li> Lemon Ice Tea &nbsp; -- &nbsp; &nbsp; $4.99 </li>
+                <li> Fruit Punch Bites &nbsp; -- &nbsp; &nbsp; $7.99 </li> 
+                <li> Special Lemonade &nbsp; -- &nbsp; &nbsp; $5.99 </li>
+                <li> Orange Lemonade &nbsp; -- &nbsp; &nbsp; $5.99 </li>
+        
+              </ul>
+            </h3>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- second column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="chai/16.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+
+            <div class="menu-text">
+              <span class="menu-text-Items" ><strong> Combo For $3.99 </strong>  </span>
+              <h3 class="menu-text-title">
+              <ul style="list-style-type: none">
+                <li>1 Soft Drink  </li>
+                <li>1 Medium Fries  </li>
+           
+              </ul>
+            </h3>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- third column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="chai/17.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+
+            <div class="menu-text">
+              <span class="menu-text-Items" ><strong>Tea M/L</strong>  </span>
+              <h3 class="menu-text-title">
+              <ul style="list-style-type: none">
+                <li>Special Kadak &nbsp; -- &nbsp; &nbsp; $3.25 / $4.25 </li>
+                <li>Adrak &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                <li> Elaichi &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                <li>Choclate &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                <li>Mango &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                <li>Paan &nbsp; -- &nbsp; &nbsp; $3.50 / $4.25 </li>
+                <li>Masala Cutting &nbsp; -- &nbsp; &nbsp; $3.29 / $4.49 </li> 
+                <li>Rose &nbsp; -- &nbsp; &nbsp; $3.50 / $4.25 </li>
+                <li>Gur Wali Chai &nbsp; -- &nbsp; &nbsp; $3.99 / $4.99 </li>
+                <li>Kesar Chai &nbsp; -- &nbsp; &nbsp; $3.99 / $4.99 </li>
+              </ul>
+            </h3>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- fourth column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="chai/18.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+
+            <div class="menu-text">
+              <span class="menu-text-Items" ><strong>Tea M/L</strong>  </span>
+              <h3 class="menu-text-title">
+              <ul style="list-style-type: none">
+                <li>Special Kadak &nbsp; -- &nbsp; &nbsp; $3.25 / $4.25 </li>
+                <li>Adrak &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                <li> Elaichi &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                <li>Choclate &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                <li>Mango &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                <li>Paan &nbsp; -- &nbsp; &nbsp; $3.50 / $4.25 </li>
+                <li>Masala Cutting &nbsp; -- &nbsp; &nbsp; $3.29 / $4.49 </li> 
+                <li>Rose &nbsp; -- &nbsp; &nbsp; $3.50 / $4.25 </li>
+                <li>Gur Wali Chai &nbsp; -- &nbsp; &nbsp; $3.99 / $4.99 </li>
+                <li>Kesar Chai &nbsp; -- &nbsp; &nbsp; $3.99 / $4.99 </li>
+              </ul>
+            </h3>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div style="clear: both;"></div>
+    <br>
+  </section>
+  <br>
+
+</div>
+<!-- drinks menu ending -->
+
+<!-- snacks menu -->
+<div class="menu-snacks-off" id="id-menu-snacks">
+
+  <section class="menu" style="display: inline;">
+      <article class="menu-section">
+        <!-- first column -->
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Wrap.jpg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+
+              <div class="menu-text">
+                <span class="menu-text-Items" ><strong>Wraps</strong>  </span>
+                <h3 class="menu-text-title">
+                <ul style="list-style-type: none">
+                  <li>Ultimate Veggie Wrap &nbsp; -- &nbsp; &nbsp; $5.99 </li>
+                  <li> Spicy Panner Wrap &nbsp; -- &nbsp; &nbsp; $6.99 </li>
+                  <li> Special Desi Wrap &nbsp; -- &nbsp; &nbsp; $6.99 </li>
+            
+                </ul>
+              </h3>
+  
+  
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <!-- second column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="chai/21.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+
+              <div class="menu-text">
+                <span class="menu-text-Items" ><strong> Finger Food </strong>  </span>
+                <h3 class="menu-text-title">
+                <ul style="list-style-type: none">
+                  <li>Veg Samosa 2 Pc &nbsp; -- &nbsp; &nbsp; $2.99 </li>
+                  <li>Spring Rolls &nbsp; -- &nbsp; &nbsp; $8.99 </li>
+                  <li>Hash Brow &nbsp; -- &nbsp; &nbsp; $1.99 </li>
+        
+                </ul>
+              </h3>
+  
+  
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <!-- third column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="chai/22.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+
+              <div class="menu-text">
+                <span class="menu-text-Items" ><strong> Burger </strong>  </span>
+                <h3 class="menu-text-title">
+                <ul style="list-style-type: none">
+                  <li>Aloo Tikki Burger &nbsp; -- &nbsp; &nbsp; $5.99 </li>
+                  <li>Veg Cheese Burger &nbsp; -- &nbsp; &nbsp; $6.99 </li>
+                  <li> Spicy Panner Burger &nbsp; -- &nbsp; &nbsp; $7.99 </li>
+                  <li> Fully Loaded Burger &nbsp; -- &nbsp; &nbsp; $8.99 </li>
+                  <li> Tikki Noodle Burger &nbsp; -- &nbsp; &nbsp; $7.99 </li>
+               
+                </ul>
+              </h3>
+  
+  
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- fourth column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="chai/24.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+
+              <div class="menu-text">
+                <span class="menu-text-Items" ><strong> Sandwich </strong>  </span>
+                <h3 class="menu-text-title">
+                <ul style="list-style-type: none">
+                  <li> Grilled Veg Sandwich &nbsp; -- &nbsp; &nbsp; $6.99 </li>
+                  <li> Panner Tka Tak &nbsp; -- &nbsp; &nbsp; $7.99 </li>
+                  <li> Corn Mayo Sandwich &nbsp; -- &nbsp; &nbsp; $7.99 </li>
+                  <li> Cheese Toast &nbsp; -- &nbsp; &nbsp; $4.99 </li>
+                  <li> Special CB Sandwich &nbsp; -- &nbsp; &nbsp; $8.99 </li>
+                
+                </ul>
+              </h3>
+  
+  
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <div style="clear: both;"></div>
+      <br>
+    </section>
+    <section class="menu" style="display: inline;">
+      <article class="menu-section">
+        <!-- first column -->
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="rolls-Menu.jpg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+
+              <div class="menu-text">
+                <span class="menu-text-Items" ><strong> Rolls </strong>  </span>
+                <h3 class="menu-text-title">
+                <ul style="list-style-type: none">
+                  <li> Aloo Paratha Roll &nbsp; -- &nbsp; &nbsp; $3.99 </li>
+                  <li> Special Mix Roll &nbsp; -- &nbsp; &nbsp; $4.99 </li>
+                  
+                </ul>
+              </h3>
+  
+  
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <!-- second column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Bagels.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+
+              <div class="menu-text">
+                <span class="menu-text-Items" ><strong> Bagels </strong>  </span>
+                <h3 class="menu-text-title">
+                <ul style="list-style-type: none">
+                  <li> All in One Bagels &nbsp; -- &nbsp; &nbsp; $3.25 / $4.25 </li>
+                  <li> Herbs Garlic Topping &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                  <li> Cream Chesse Topping &nbsp; -- &nbsp; &nbsp; $2.99 / $3.99 </li>
+                
+                </ul>
+              </h3>
+  
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <!-- third column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Pakoda_Menu.jpg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+
+              <div class="menu-text">
+                <span class="menu-text-Items" ><strong> Pakoda Half/Full</strong>  </span>
+                <h3 class="menu-text-title">
+                <ul style="list-style-type: none">
+                  <li> Veg Pakoda &nbsp; -- &nbsp; &nbsp; $4.99 / $8.99 </li>
+                  <li> Panner Pakoda &nbsp; -- &nbsp; &nbsp; $6.99 / $11.99 </li>
+                  <li> Gobi Pakoda &nbsp; -- &nbsp; &nbsp; $6.99 / $11.99 </li>
+                  <li> Bread Pakoda &nbsp; -- &nbsp; &nbsp; $5.99 / $10.99 </li>
+                  <li> Mix Pakoda Platter &nbsp; -- &nbsp; &nbsp; $13.99 </li>
+              
+                </ul>
+              </h3>
+  
+  
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- fourth column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="chai/20.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+
+              <div class="menu-text">
+                <span class="menu-text-Items" ><strong> Sides </strong>  </span>
+                <h3 class="menu-text-title">
+                <ul style="list-style-type: none">
+                  <li> French Fries &nbsp; -- &nbsp; &nbsp; $4.99 </li>
+                  <li> Onion Rings &nbsp; -- &nbsp; &nbsp; $4.99 </li>
+                  <li> Mint Dopping &nbsp; -- &nbsp; &nbsp; $1.25 </li>
+                  <li> Tamarind Dipping &nbsp; -- &nbsp; &nbsp; $1.25 </li>
+                  <li> Extra Cheese &nbsp; -- &nbsp; &nbsp; $0.99 </li>
+                  <li> Cheese Toast &nbsp; -- &nbsp; &nbsp; $6.99 </li>
+                  
+                </ul>
+              </h3>
+  
+  
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <div style="clear: both;"></div>
+      <br>
+    </section>
+    <br>
+  
+  </div>
+
+  <!-- snacks menu ending -->
+
+
+
+
+  <!-- Contact -->
+  
+  <section class="contact-template" id="id-contact">
+    <h1 class="contact-title">Contact</h1>
+    <br><h3 class="menu-subtitle">L O C A T E&nbsp;&nbsp;U S</h3>
+  </section>
+
+  <div class="contact">
+    <section class="about-section-center-clearfix" style="display: inline; ">
+
+      <article class="contact-map">
+      <!--left column-->
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.072596002722!2d-113.95208682355276!3d51.132908642690206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537163ae58e1f83f%3A0x64273261fd76c17!2sSavanna%20Bazaar%20Medical%20Centre!5e0!3m2!1sen!2sca!4v1647791234846!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      class="contact-iframe"></iframe>
+      <br><br>
+      </article>
+      <!-- right column -->
+      <article class="contact-img">
+       <!-- second column -->
+        <br>
+        <!-- section title -->
+        <div class="opening-container">
+          <img src="Struct.jpg" alt="Snow" style="width:100%;">
+          <div class="opening-text ">
+            <h3>O P E N&nbsp;&nbsp;H O U R S</h3>
+              <p>
+                <strong>Monday: Closed</strong><br>
+                <strong>Tuesday to Friday</strong><br>
+                7:00 AM - 11:00 PM<br>
+                <strong>LOCATION</strong><br>
+                Savana Bazaar, Unit 4120, 5850, 88th Ave NE. T1X 0Z7, Calgary <br>
+                <strong>Email</strong> <br>
+                Thechaibarcanada@gmail.com
+                
+              </p>
+          </div>
+        </div>
+        
+
+        <!--end section title -->
+      </article>
+      <div style="clear: both;"></div>
+    </section>
+    
+    <div class="contact-social">
+        <a class="contact-social-icons" href="#"><img src="svg/facebook.svg" weight="25" title="facebook" height="25"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="contact-social-icons" href="#"><img src="svg/instagram.svg" weight="25" title="instagram" height="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="contact-social-icons" href="#"><img src="svg/google.svg" weight="25" title="gmail" height="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="contact-social-icons" href="#"><img src="svg/linkedin.svg" weight="25" title="gmail" height="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="contact-social-icons" href="#"><img src="svg/whatsapp.svg" weight="25" title="whatsapp" height="25"></a> 
+    </div><br>
+    <p class="fontsettings">Copyright © 2020 | <a class="colorcover-link" href="#">
+      The Chai Bar</a></p><br><br>
+  </div>
+ 
+  </body>
+</html>
